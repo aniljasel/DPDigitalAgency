@@ -22000,6 +22000,11 @@ img {
   display: inline-block;
   text-align: start;
 }
+
+.container .row {
+  display: flex;
+  justify-content: space-between;
+}
 @media screen and (min-width: 721px) and (max-width: 1000px) {
   .compare-table-area .table_ul li {
     letter-spacing: 0px;
@@ -22048,6 +22053,9 @@ img {
     line-height: 8px;
     font-size: 8px !important;
   }
+  .container .row form {
+    margin-top: 20px;
+  }
   .compare-table-area .comparison .compare-row {
     background: var(--ztc-text-text-1);
   }
@@ -22076,6 +22084,9 @@ img {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .pricing7-section-area .pricing-header {
     margin-bottom: 30px;
+  }
+  .container .row form {
+    margin-top: 20px;
   }
 }
 .pricing7-section-area .pricing-boxarea.active {
